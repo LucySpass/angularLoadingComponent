@@ -1,0 +1,49 @@
+.beg-container {
+    display: flex !important;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    background-color: rgba(0, 0, 0, 0.7);
+
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.beg-container1 {
+    display: flex !important;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    background-color: rgba(0, 0, 0, 0.7);
+
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+h1 {
+    text-shadow: 3px 1px 3px black;
+    margin: auto !important;
+    animation: textMovement linear 2s infinite alternate;
+    color: #B388FF;
+}
+
+@keyframes textMovement {
+    0% {
+        color: #B388FF;
+        transform: scale(1, 1)
+    }
+    50% {
+        color: #69F0AE;
+        transform: scale(1.2, 1.2)
+    }
+    100% {
+        color: #B388FF;
+        transform: scale(1, 1)
+    }
+}

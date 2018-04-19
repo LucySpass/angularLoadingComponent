@@ -1,0 +1,11 @@
+.container {
+    height: calc(100% - 64px);
+    width: 100%;
+    display: flex;
+}
+
+.click-btn {
+    display: flex !important;
+    margin: auto !important;
+    padding: 32px !important;
+}
