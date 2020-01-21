@@ -1,7 +1,7 @@
 <mat-toolbar>
-    <span>Challenge one</span>
+  <span>Loading component</span>
 </mat-toolbar>
 <div class="container">
-    <button mat-raised-button color="accent" (click)="btnClick()" class="click-btn">Click me!</button>
-    <beg-loading *ngIf="isBegShown"></beg-loading>
+  <button (click)="btnClick()" class="click-btn" color="accent" mat-raised-button>Click me!</button>
+  <loading *ngIf="isLoaderShown"></loading>
 </div>

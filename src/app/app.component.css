@@ -1,11 +1,11 @@
 .container {
-    height: calc(100% - 64px);
-    width: 100%;
-    display: flex;
+  height: calc(100% - 64px);
+  width: 100%;
+  display: flex;
 }
 
 .click-btn {
-    display: flex !important;
-    margin: auto !important;
-    padding: 32px !important;
+  display: flex !important;
+  margin: auto !important;
+  padding: 32px !important;
 }
