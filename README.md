@@ -5,4 +5,4 @@ It's a mini custom angular loading component with unclickable background. Feel f
 This project uses only **Angular** and **Angular Material** dependencies.
 
 ## Information
-This is a great example to see how to make unclickable background using @HostListener
+This is a great example to see how to make unclickable background using **@HostListener**
